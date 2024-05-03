@@ -75,6 +75,7 @@ const WeatherApp = () => {
 
 
   return (
+    <div className="weather-info-section">
     <div className="container">
         <div className="top-bar">
             <input type="text" className="cityInput" placeholder="search"></input>
@@ -85,7 +86,7 @@ const WeatherApp = () => {
         <div className="weather-image">
             <img src={wicon} alt="" />
         </div>
-        <div className="weather-temp">18 °C</div>
+        <div className="weather-temp">30 °C</div>
         <div className="weather-location">Kathmandu</div>
         <div className="data-container">
             <div className="element">
@@ -103,6 +104,7 @@ const WeatherApp = () => {
                 </div>
             </div>
         </div>
+    </div>
     </div>
   );
 }
